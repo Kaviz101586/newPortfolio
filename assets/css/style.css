@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("https://images.pexels.com/photos/1239162/pexels-photo-1239162.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    min-height: 600px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("https://images.pexels.com/photos/830891/pexels-photo-830891.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    min-height: 600px;
+  }
+ 
+  #topCaption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+
+  #smallerFont {
+    position: absolute;
+    left: 10;
+    width: 55%;
+    font-size : 16px;
+    font-style: italic;
+    text-align: center;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    }
+  
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    margin-top: 10px;
+    letter-spacing: 0px;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+
+  p {
+      text-align: center;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
