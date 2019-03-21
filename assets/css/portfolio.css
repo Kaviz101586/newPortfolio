@@ -5,7 +5,7 @@ body, html {
     color: #777;
   }
   
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     position: relative;
     opacity: 1;
     background-attachment: fixed;
@@ -20,7 +20,7 @@ body, html {
   }
   
   .bgimg-2 {
-    background-image: url("https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-image: url("/assets/images/BackgroundNJTrail.png");
     min-height: 600px;
   }
   
