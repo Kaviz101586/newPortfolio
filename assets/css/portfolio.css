@@ -15,27 +15,27 @@ body, html {
   
   }
   .bgimg-1 {
-    background-image: url("https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://github.com/Kaviz101586/newPortfolio/blob/master/assets/images/BackgroundNJTrail.png?raw=true");
     min-height: 600px;
   }
   
   .bgimg-2 {
-    background-image: url("/assets/images/BackgroundNJTrail.png");
+    background-image: url("https://images.cdn4.stockunlimited.net/clipart450/order-food-online-concept_1999730.jpg");
     min-height: 600px;
   }
   
   .bgimg-3 {
-    background-image: url("https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://github.com/Kaviz101586/newPortfolio/blob/master/assets/images/harry-potter-1640525__340.jpg?raw=true");
     min-height: 600px;
   }
 
   .bgimg-4 {
-    background-image: url("https://images.pexels.com/photos/830891/pexels-photo-830891.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/36095hd.jpg");
     min-height: 600px;
   }
 
   .bgimg-5 {
-    background-image: url("https://images.pexels.com/photos/830891/pexels-photo-830891.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-image: url("https://devondentalassociates.ca/wp-content/uploads/2017/01/coming-soon.jpg");
     min-height: 600px;
   }
  
@@ -89,10 +89,30 @@ body, html {
   p {
       text-align: center;
   }
+
+    /* unvisited link */
+  a:link {
+    color: white;
+  }
+
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+
+  /* selected link */
+  a:active {
+    color: blue;
+  }
   
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4, .bgimg-5 {
       background-attachment: scroll;
     }
   }
