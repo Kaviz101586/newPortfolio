@@ -15,7 +15,7 @@ body, html {
   
   }
   .bgimg-1 {
-    background-image: url("https://github.com/Kaviz101586/newPortfolio/blob/master/assets/images/BackgroundNJTrail.png?raw=true");
+    background-image: url("https://raw.githubusercontent.com/Kaviz101586/newPortfolio/master/assets/images/BackgroundNJTrail.jpeg");
     min-height: 600px;
   }
   
@@ -97,7 +97,7 @@ body, html {
 
   /* visited link */
   a:visited {
-    color: green;
+    color: yellow;
   }
 
   /* mouse over link */
